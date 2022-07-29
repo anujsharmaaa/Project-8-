@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./bg\ img.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 100vh;
+}
+
+
+.main-div{
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 3%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 14vh;
+    align-items: center;
+}
+
+nav  img{
+    width: 120px;
+}
+
+.nav-items{
+    display: flex;
+    gap: 1.4rem;
+    color: rgb(177, 93, 255);
+}
+
+ .nav-item{
+    cursor: pointer;
+}
+
+nav .signin-btn{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border: none;
+    padding-top: 1rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    padding-bottom: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.intro-section{
+    display: flex;
+}
+
+.intro-section .left-section{
+    max-width: 400px;
+    margin-top: 100px;
+}
+
+.intro-section h1{
+    color: #8E2DE2;
+    font-size: 3.8rem;
+    margin-bottom: 3.7rem;
+}
+
+.intro-section h4{
+    color: #4A00E0;
+    font-weight: normal;
+    max-width: 30rem;
+    margin-bottom: 3.2rem;
+    line-height: 1.2rem;
+}
+
+.intro-section .learn-more-btn{
+    border: none;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px 20px;
+    color: aliceblue;
+    border-radius: 50px;
+    cursor: pointer;
+}
